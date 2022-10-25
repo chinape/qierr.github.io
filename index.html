@@ -4,6 +4,14 @@
 <meta charset="utf-8">
 <title>URUN-Offical</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="jquery-3.6.1.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#q").click(function(){
+    $("#a").slideToggle("slow");
+  });
+});
+</script>
 <link rel="shortcut icon" href='URUN.png' />
 </head>
 <br>
@@ -31,6 +39,13 @@
 <h1>你还可以：</h1>
 <h2><a href="subject/qatar2022.html">2022卡塔尔世界杯专题</a></h2>
 <h2><a href="subject/2022nobelprize.html">2022年诺贝尔奖</a></h2>
+</div> 
+<br>
+
+<div style="border:2px solid;border-radius:25px;padding:10px;text-align:center;">
+<h1>你一定会问</h1>
+<h3 id="q">什么是虚拟国联盟？</h2>
+<h5 id="a" style="display:none;">2022年诺贝尔奖</h2>
 </div> 
 </body>
 </html>
